@@ -1,0 +1,286 @@
+@charset "UTF-8";
+
+html {
+  font-size: 10px;
+  /* scroll-behavior: smooth; */
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+body {
+  margin: 0;
+  font-size: 1.6rem;
+  background-color: #fffeee;
+  font-family: "遊ゴシック", "Yu Gothic", YuGothic, sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: #ffbf1f;
+  height: 100px;
+}
+
+.header_items {
+  width: 100%;
+}
+
+h1 img {
+  width: 250px;
+  display: block;
+}
+
+section {
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.case-list {
+  counter-reset: case;
+  font-size: 3rem;
+  line-height: 3;
+}
+
+.case-list > li {
+  counter-increment: case;
+}
+
+.case-list > li:before {
+  content: "Case." counter(case);
+  font-weight: bold;
+  margin-right: 5px;
+  border-bottom: solid 3px #ffbf1f;
+}
+
+article + article {
+  padding-top: 80px;
+}
+.first-view {
+  border-right: solid 10px #ffbf1f;
+  border-left: solid 10px #ffbf1f;
+  border-bottom: solid 10px #ffbf1f;
+}
+
+.first-view_pre-service-name {
+  font-size: 4.5rem;
+  text-align: center;
+}
+
+.first-view_service-name {
+  color: #ffbf1f;
+  font-size: 7.5rem;
+  text-align: center;
+}
+
+.img {
+  width: 800px;
+}
+
+.cta {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.cta a {
+  display: block;
+}
+
+h2 {
+  font-size: 6rem;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: bold;
+  color: #ffbf1f;
+}
+
+h3 {
+  border-bottom: solid 3px #ffbf1f;
+
+  font-size: 3.6rem;
+  max-width: 840px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.lists:not(:first-child) {
+  margin-top: 20px;
+}
+
+airticle ul {
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 3;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.company dl {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  max-width: 1200px;
+  width: 100%;
+  border-top: 1px solid #cfcfcf;
+  border-left: 1px solid #cfcfcf;
+}
+
+.company dd,
+dt {
+  padding: 20px;
+  border-right: 1px solid #cfcfcf;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.company dt {
+  background-color: #f7f7f7;
+}
+
+form {
+  max-width: 1200px;
+  width: 100%;
+  font-size: 2.3rem;
+  padding: 60px;
+  border: solid 5px;
+}
+
+form p {
+  font-weight: bold;
+}
+
+.form_erea {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  align-items: center;
+  row-gap: 40px;
+}
+
+.form-service {
+  grid-column: 1 / 3;
+}
+
+.form-gender_right {
+  display: flex;
+  column-gap: 20px;
+}
+
+.form-service_right,
+.form-message_right {
+  margin-top: 20px;
+}
+
+.form-message {
+  grid-column: 1 / 3;
+}
+
+.form-service_right {
+  display: flex;
+  column-gap: 20px;
+}
+
+.form-button {
+  margin-top: 60px;
+  text-align: center;
+}
+
+input.form-name {
+  width: 300px;
+  padding: 8px;
+  height: 50px;
+  background-color: #fff;
+  border-style: solid;
+}
+
+.imput_wrap {
+  display: flex;
+  align-items: center;
+}
+
+.imput_wrap label {
+  margin-left: 6px;
+}
+
+select.region {
+  width: 300px;
+  padding: 8px;
+  height: 50px;
+  background-color: #fff;
+  border-style: solid;
+  text-align: center;
+}
+
+.vertical_location {
+  vertical-align: middle;
+}
+
+textarea {
+  width: 100%;
+  height: 300px;
+  padding: 8px;
+  background-color: #fff;
+  border-style: solid;
+}
+
+.form-sendbutton {
+  width: 300px;
+  height: 65px;
+  font-weight: bold;
+  background-color: #fbf9db;
+  border: double;
+  border-radius: 10px;
+}
+
+.form-sendbutton:hover {
+  background-color: #ffbf1f;
+}
+
+footer {
+  flex-direction: column;
+  background-color: #ffbf1f;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  align-items: center;
+}
+
+.footer_items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.footer_items nav ul {
+  display: flex;
+}
+
+.footer_items nav ul li:not(:first-child) {
+  margin-left: 20px;
+}
+
+footer .sns-links {
+  display: flex;
+  gap: 20px;
+}
+
+footer .sns-links img {
+  width: 60px;
+  height: 60px;
+}
+
+footer p {
+  margin-top: 40px;
+  text-align: center;
+}
