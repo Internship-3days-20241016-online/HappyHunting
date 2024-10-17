@@ -18,16 +18,16 @@ h1 {
   text-align: center;
 }
 
-<<<<<<< HEAD
-.first-view {
-  height: 50vh;
+
+main .first-view {
+  height: 70vh;
   padding-top: 30px;
   padding-bottom: 20px;
   background-color: #ebff3b;
   display: flex;
   justify-content: center;
 }
-=======
+
 /* footer関係 */
 
 footer h2{
