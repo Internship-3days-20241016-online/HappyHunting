@@ -10,3 +10,17 @@ h1 {
   font-size: 3.6rem;
   text-align: center;
 }
+
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+.img {
+  margin-right: 20px;
+}
+
+.large-font {
+  font-size: 1.5em;
+  font-weight: bold;
+}
