@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+/* リセットCSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   font-size: 10px;
   /* scroll-behavior: smooth; */
@@ -11,6 +18,7 @@ h1 {
   text-align: center;
 }
 
+<<<<<<< HEAD
 .first-view {
   height: 50vh;
   padding-top: 30px;
@@ -19,3 +27,98 @@ h1 {
   display: flex;
   justify-content: center;
 }
+=======
+/* footer関係 */
+
+footer h2{
+  font-size: 3em;
+  color: #f7f7f7;
+  text-align: center;
+  padding-top: 10px;
+}
+footer .sns-links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+footer .sns-links img {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+}
+footer .footer-upper{
+  background-color: black;
+  height: 160px;
+}
+footer .footer-bottom{
+  background-color: #c0c0c0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+footer .footer-nav{
+  width: 80%;
+}
+footer ul{
+  display: flex;
+}
+footer li{
+  margin: 20px;
+  list-style: none;
+}
+footer a{
+  text-decoration: none;
+  color: black;
+}
+footer small{
+  display: flex;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+	padding-left: 128px;
+  padding-right: 128px;
+  display: flex;
+  align-items: center;
+	background-color: #fefefe;
+  height: 100px;
+}
+
+.header_items {
+  width: 100%;
+}
+
+h1 img {
+  width: 250px;
+  display: block;
+}
+
+.header-nav-items {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	row-gap: 20px;
+}
+
+li {
+	width: 100px;
+	list-style: none;
+	text-align: center;
+}
+
+a {
+	color: #000000;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#signup-link {
+	background-color: #000000;
+	color: #ffffff;
+	border-radius: 10px;
+	padding: 15px 20px;
+	white-space: nowrap;
+}
+>>>>>>> main
