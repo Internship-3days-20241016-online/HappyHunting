@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+/* リセットCSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   font-size: 10px;
   /* scroll-behavior: smooth; */
@@ -9,4 +16,51 @@ html {
 h1 {
   font-size: 3.6rem;
   text-align: center;
+}
+
+header {
+  width: 100%;
+	padding-left: 128px;
+  padding-right: 128px;
+  display: flex;
+  align-items: center;
+	background-color: #fefefe;
+  height: 100px;
+}
+
+.header_items {
+  width: 100%;
+}
+
+h1 img {
+  width: 250px;
+  display: block;
+}
+
+.header-nav-items {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	row-gap: 20px;
+}
+
+li {
+	width: 100px;
+	list-style: none;
+	text-align: center;
+}
+
+a {
+	color: #000000;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#signup-link {
+	background-color: #000000;
+	color: #ffffff;
+	border-radius: 10px;
+	padding: 15px 20px;
+	white-space: nowrap;
 }
