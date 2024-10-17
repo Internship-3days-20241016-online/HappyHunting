@@ -18,6 +18,27 @@ h1 {
   text-align: center;
 }
 
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+.img {
+  margin-right: 20px;
+  background-color: yellow;
+}
+
+.large-font {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
 main .first-view {
   height: 70vh;
