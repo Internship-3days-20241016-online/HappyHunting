@@ -1,4 +1,4 @@
-# team3
+# HappyHunting
 
 ## 命名規則
 
