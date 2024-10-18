@@ -49,9 +49,15 @@ main .first-view {
   justify-content: center;
 }
 
+main .h-100 {
+  height: 100px;
+  background-color: #ebff3b;
+  position: relative;
+  z-index: -1;
+}
 /* footer関係 */
 
-footer h2{
+footer h2 {
   font-size: 3em;
   color: #f7f7f7;
   text-align: center;
@@ -67,43 +73,44 @@ footer .sns-links img {
   height: 50px;
   border-radius: 15px;
 }
-footer .footer-upper{
+footer .footer-upper {
   background-color: black;
   height: 160px;
 }
-footer .footer-bottom{
+footer .footer-bottom {
   background-color: #c0c0c0;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
 }
-footer .footer-nav{
+footer .footer-nav {
   width: 80%;
 }
-footer ul{
+footer ul {
   display: flex;
 }
-footer li{
+footer li {
   margin: 20px;
   list-style: none;
 }
-footer a{
+footer a {
   text-decoration: none;
   color: black;
 }
-footer small{
+footer small {
   display: flex;
   align-items: center;
 }
 
 header {
   width: 100%;
-	padding-left: 128px;
+  padding-left: 128px;
   padding-right: 128px;
   display: flex;
   align-items: center;
-	background-color: #fefefe;
+  background-color: #fefefe;
   height: 100px;
+  position: fixed;
 }
 
 .header_items {
@@ -116,29 +123,29 @@ h1 img {
 }
 
 .header-nav-items {
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	row-gap: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  row-gap: 20px;
 }
 
 li {
-	width: 100px;
-	list-style: none;
-	text-align: center;
+  width: 100px;
+  list-style: none;
+  text-align: center;
 }
 
 a {
-	color: #000000;
-	font-size: 16px;
-	font-weight: bold;
-	text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 #signup-link {
-	background-color: #000000;
-	color: #ffffff;
-	border-radius: 10px;
-	padding: 15px 20px;
-	white-space: nowrap;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 15px 20px;
+  white-space: nowrap;
 }
