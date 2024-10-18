@@ -14,17 +14,25 @@ html {
 
 .flex-container {
   display: flex;
+  justify-content: center;
   align-items: center;
+  margin-top: 40px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .img {
   margin-right: 20px;
+  min-width: 500px;
   background-color: yellow;
 }
 
 .large-font {
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: bold;
+  line-height: 2;
+  min-width: 400px;
+  max-width: 600px;
 }
 
 .cta {
