@@ -24,7 +24,7 @@ html {
 .img {
   margin-right: 20px;
   min-width: 500px;
-  background-color: yellow;
+  background-color: #ebff3b;
 }
 
 .large-font {
@@ -181,9 +181,37 @@ a {
 }
 
 #signup-link {
-  background-color: #000000;
-  color: #ffffff;
-  border-radius: 10px;
-  padding: 15px 20px;
-  white-space: nowrap;
+	background-color: #000000;
+	color: #ffffff;
+	border-radius: 10px;
+	padding: 15px 20px;
+	white-space: nowrap;
+}
+
+.third-view{
+  h3{
+    font-size: 3.6rem;
+    font-weight: 700;
+    text-align: center;
+  }
+  .text{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .price-image{
+    width: 800px;
+    display: flex;
+    margin: 30px auto;
+  }
+  .img{
+    background-color: transparent;
+    display: flex;
+    margin: 30px auto;
+  }
+  .caution-table{
+    margin: 10px auto;
+    .table-text{
+      font-size: 1.2rem;
+    }
+  }
 }
