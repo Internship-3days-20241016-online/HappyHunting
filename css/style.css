@@ -25,7 +25,6 @@ h1 {
 
 .img {
   margin-right: 20px;
-  background-color: yellow;
 }
 
 .large-font {
@@ -132,13 +131,108 @@ a {
 	color: #000000;
 	font-size: 16px;
 	font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 10px;
 	text-decoration: none;
+  white-space: nowrap;
+}
+
+nav ul li a:hover {
+  background-color: #f0f0f0;
 }
 
 #signup-link {
 	background-color: #000000;
 	color: #ffffff;
 	border-radius: 10px;
-	padding: 15px 20px;
-	white-space: nowrap;
+	
+}
+
+#signup-link:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+
+/*セクション関連のスタイル*/
+.section-inner {
+  padding-left: 128px;
+  padding-right: 128px;
+}
+
+.section-inner .section-wrapper {
+  background-color: #fefefe;
+  box-shadow: none;
+  margin-top: 0;
+  padding: 0 1.2rem;
+}
+
+.section-inner .section-wrapper .section-title {
+  font-size: 2.4rem;
+  text-align: center;
+  margin-top: 15rem;
+  text-align: center;
+}
+
+.service-list {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .service-list {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 16px;
+  }
+}
+
+.service-list-item {
+  width: 100%;
+  height: 100%;
+}
+
+.service-link {
+  position: relative;
+  display: block;
+  background: #f7f7f7;
+  padding: 1rem 20px;
+  border-radius: 14px;
+}
+
+.service-figure {
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: none;
+  vertical-align: bottom;
+  border-radius: 14px;
+}
+
+figcaption {
+  flex: 1;
+  position: relative;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.figcaption-text {
+  font-size: 1.2rem;
+  color: #1d1d1d;
+  font-weight: bold;
+  line-height: 1.6;
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  text-align: center;
 }
