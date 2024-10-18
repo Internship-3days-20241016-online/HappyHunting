@@ -50,14 +50,14 @@ main .h-100 {
   z-index: -1;
 }
 
-.voice_container {
+main .voice_container {
   display: flex;
   justify-content: space-between;
   gap: 20px; /* 枠線間の余白 */
   margin: 40px auto; /* 外側の余白を追加し、中央に配置 */
   max-width: 1200px; /* セクションの最大幅を設定 */
 }
-.voice_framework {
+main .voice_framework {
   width: 48%;
   border: 1px solid #000;
   padding: 10px;
@@ -65,15 +65,15 @@ main .h-100 {
   border-radius: 10px; /* 角を丸くする */
   font-size: 1.8em; /* フォントサイズを大きくする */
 }
-.voice_framework img {
+main .voice_framework img {
   max-width: 100%;
   height: auto;
 }
-.voice_framework h2 {
+main .voice_framework h2 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.voice_framework p {
+main .voice_framework p {
   margin-top: 10px;
   margin-bottom: 10px;
 }
