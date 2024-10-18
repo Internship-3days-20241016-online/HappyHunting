@@ -12,12 +12,6 @@ html {
   /* scroll-behavior: smooth; */
 }
 
-/* h1タグのスタイルを変更 */
-h1 {
-  font-size: 3.6rem;
-  text-align: center;
-}
-
 .flex-container {
   display: flex;
   align-items: center;
@@ -55,6 +49,14 @@ main .h-100 {
   position: relative;
   z-index: -1;
 }
+
+/* h1 のスタイルを main h1 に変更 */
+main h1 {
+  font-size: 3.6rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
 /* footer関係 */
 
 footer h2 {
