@@ -149,6 +149,7 @@ header {
   background-color: #fefefe;
   height: 100px;
   position: fixed;
+  z-index: 9999;
 }
 
 .header_items {
