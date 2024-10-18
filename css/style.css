@@ -23,6 +23,7 @@ html {
 
 .img {
   margin-right: 20px;
+  min-width: 500px;
   background-color: #ebff3b;
 }
 
