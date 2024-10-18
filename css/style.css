@@ -12,25 +12,27 @@ html {
   /* scroll-behavior: smooth; */
 }
 
-/* h1タグのスタイルを変更 */
-h1 {
-  font-size: 3.6rem;
-  text-align: center;
-}
-
 .flex-container {
   display: flex;
+  justify-content: center;
   align-items: center;
+  margin-top: 40px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .img {
   margin-right: 20px;
+  min-width: 500px;
   background-color: yellow;
 }
 
 .large-font {
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: bold;
+  line-height: 2;
+  min-width: 400px;
+  max-width: 600px;
 }
 
 .cta {
@@ -55,6 +57,14 @@ main .h-100 {
   position: relative;
   z-index: -1;
 }
+
+/* h1 のスタイルを main h1 に変更 */
+main h1 {
+  font-size: 3.6rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
 /* footer関係 */
 
 footer h2 {
