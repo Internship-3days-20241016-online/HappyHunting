@@ -13,10 +13,10 @@ html {
 }
 
 /* h1タグのスタイルを変更 */
-h1 {
+/* h1 {
   font-size: 3.6rem;
   text-align: center;
-}
+} */
 
 .flex-container {
   display: flex;
@@ -83,6 +83,14 @@ main .h-100 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+/* h1 のスタイルを main h1 に変更 */
+main h1 {
+  font-size: 3.6rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
 /* footer関係 */
 
 footer h2 {
