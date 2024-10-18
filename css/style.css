@@ -163,4 +163,10 @@ a {
     display: flex;
     margin: 30px auto;
   }
+  .caution-table{
+    margin: 10px auto;
+    .table-text{
+      font-size: 1.2rem;
+    }
+  }
 }
